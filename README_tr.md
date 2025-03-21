@@ -13,7 +13,7 @@ Bu depo, Azure üzerinde bir Windows Server sanal makinesi kurulumunu adım adı
 
 ## Adım 1: Kaynak Grubu Oluşturma
 Azure Portal'da yeni bir kaynak grubu oluşturuldu. Kaynak grubu, tüm Azure kaynaklarını organize etmek için kullanılır.
-![Kaynak Grubu Oluşturma](image.png)
+![Kaynak Grubu Oluşturma](images/image.png)
 
 
 ---
@@ -22,32 +22,32 @@ Azure Portal'da yeni bir kaynak grubu oluşturuldu. Kaynak grubu, tüm Azure kay
 Varsayılan alt ağ ile bir sanal ağ oluşturuldu. Sanal ağ, sanal makinelerin birbirleriyle ve dış dünyayla iletişim kurmasını sağlar.
 
 
-![Sanal Ağ Oluşturma](image-1.png)
+![Sanal Ağ Oluşturma](images/image-1.png)
 ---
 
 ## Adım 3: Windows Sanal Makinesi Dağıtımı
 Ücretsiz katmana uygun bir Windows Server sanal makinesi oluşturuldu. Sanal makineye RDP erişimi için genel IP adresi atandı.
 
 
-![Sanal Makine Oluşturma](image-2.png)
+![Sanal Makine Oluşturma](images/image-2.png)
 ---
 
 ## Adım 4: Sanal Makineye Veri Diski Bağlama
 Oluşturulan sanal makineye ek bir veri diski bağlandı. Bu disk, ek depolama alanı sağlar.
 
-![Veri Diski Ekleme](image-3.png)
+![Veri Diski Ekleme](images/image-3.png)
 ---
 
 ## Adım 5: VM'ye RDP ile Bağlanma
 Sanal makineye, genel IP adresi kullanılarak Uzak Masaüstü Bağlantısı (RDP) ile bağlanıldı.
 
 
-![RDP Bağlantısı](image-4.png)
+![RDP Bağlantısı](images/image-4.png)
 ---
 
 ## Adım 6: Kaynakları Temizleme (İsteğe Bağlı)
 Gereksiz ücretlendirmelerden kaçınmak için kaynak grubu ve tüm kaynaklar silindi.
-![Kaynak Grubunu Silme](image-5.png)
+![Kaynak Grubunu Silme](images/image-5.png)
 
 
 ---
